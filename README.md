@@ -3,11 +3,11 @@ Classify Invoice table on multiple column classes such as item name, item number
 
 **To build docker image :**
 
-sudo docker build -t table_classification .
+sudo docker build -t table_classification:latest .
 
 **To create docker container :**
 
-sudo docker run -d -p 5000:8000 -v tb_volume:/logs_directory/
+sudo docker run -d -p 5000:8000 -v tb_volume:/logs_directory/ table_classification:latest
 
 **Inputs** : csv file (invoice table), list of classes 
 
