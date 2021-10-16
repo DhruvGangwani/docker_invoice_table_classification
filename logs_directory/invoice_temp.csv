@@ -1,0 +1,5 @@
+,nome dell'oggetto,codice articolo,quantità,prezzo unitario,sconto,prezzo totale
+0,item a,I1,2,12,2,24
+1,item b,I2,4,34,5,136
+2,item c,I3,6,45,7,270
+3,item d,I4,8,67,0,534
